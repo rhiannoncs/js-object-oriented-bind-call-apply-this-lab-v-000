@@ -11,5 +11,5 @@ function setThisWithApply(fn, thisValue, args) {
 }
 
 function returnNewFunctionOf(fn, thisValue) {
-  
+  return fn.bind(thisValue);
 }
